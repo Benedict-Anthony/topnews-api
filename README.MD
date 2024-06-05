@@ -1,4 +1,3 @@
-````markdown
 # User and Blog Management API
 
 ## Description
@@ -98,6 +97,7 @@ Content-Type: application/json
   "password": "yourpassword"
 }
 ```
+
 ````
 
 ### Logging in a User
@@ -236,3 +236,4 @@ Contains the logic for handling blog-related requests such as creating, updating
 ### `middleware/authMiddleware.ts`
 
 A middleware to protect routes that require authentication.
+````
