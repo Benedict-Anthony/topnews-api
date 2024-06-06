@@ -68,19 +68,19 @@ This API provides functionalities for managing users and blog posts. Users can b
 
 ### User Routes
 
-- **POST /users/**: Create a new user
-- **GET /users/**: Get user details (Requires authentication)
-- **PUT /users/**: Update user information (Requires authentication)
-- **DELETE /users/**: Delete a user (Requires authentication)
-- **POST /users/login**: Authenticate a user and get a token
+- **POST /api/users/**: Create a new user
+- **GET /api/users/**: Get user details (Requires authentication)
+- **PUT /api/users/**: Update user information (Requires authentication)
+- **DELETE /api/users/**: Delete a user (Requires authentication)
+- **POST /api/users/login**: Authenticate a user and get a token
 
 ### Blog Routes
 
-- **POST /blogs/**: Create a new blog post (Requires authentication)
-- **GET /blogs/**: Get all blog posts
-- **GET /blogs/:id**: Get a single blog post by ID
-- **PUT /blogs/:id**: Update a blog post by ID (Requires authentication)
-- **DELETE /blogs/:id**: Delete a blog post by ID (Requires authentication)
+- **POST /api/blogs/**: Create a new blog post (Requires authentication)
+- **GET /api/blogs/**: Get all blog posts
+- **GET /api/blogs/:id**: Get a single blog post by ID
+- **PUT /api/blogs/:id**: Update a blog post by ID (Requires authentication)
+- **DELETE /api/blogs/:id**: Delete a blog post by ID (Requires authentication)
 
 ## Usage
 
